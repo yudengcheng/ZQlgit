@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "QRViewController.h"
 #import "HomeCTableViewCell.h"
 #import "UserViewController.h"
 #import "MJRefresh.h"
@@ -202,7 +202,7 @@ static NSString * ideHomeCTableViewCell = @"HomeCTableViewCell";
 -(void)layout
 {
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"发帖" style:UIBarButtonItemStylePlain target:self action:@selector(FTAction)];
-    
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"qrcode.png"] style:UIBarButtonItemStylePlain target:self action:@selector(QRcode)];;
     
     self.homeTableview.delegate =self;
     self.homeTableview.dataSource = self;
@@ -410,7 +410,12 @@ static NSString * ideHomeCTableViewCell = @"HomeCTableViewCell";
     
 }
 
-
+- (void)QRcode
+{
+    QRViewController *qr = [[QRViewController alloc] init];
+    
+    [self.navigationController pushViewController:qr animated:YES];
+}
 
 @end
 

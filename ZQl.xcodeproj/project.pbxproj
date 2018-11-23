@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975ABDFA21A7ACCC001F63E8 /* WebViewVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ABDF621A7ACCB001F63E8 /* WebViewVController.m */; };
+		975ABDFB21A7ACCC001F63E8 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ABDF921A7ACCC001F63E8 /* QRViewController.m */; };
+		975ABE0121A7ACD3001F63E8 /* WSLNativeScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ABDFE21A7ACD3001F63E8 /* WSLNativeScanTool.m */; };
+		975ABE0221A7ACD3001F63E8 /* WSLScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 975ABE0021A7ACD3001F63E8 /* WSLScanView.m */; };
+		975ABE0621A7AD0D001F63E8 /* jcore-ios-1.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 975ABE0321A7AD0D001F63E8 /* jcore-ios-1.2.1.a */; };
+		975ABE0721A7AD0D001F63E8 /* jpush-ios-3.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 975ABE0521A7AD0D001F63E8 /* jpush-ios-3.1.0.a */; };
 		97818D1421A3A4B9006042FA /* user.txt in Resources */ = {isa = PBXBuildFile; fileRef = 97818D1321A3A4B9006042FA /* user.txt */; };
-		978A5454210ABBF300428630 /* otherL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 978A5453210ABBF300428630 /* otherL.plist */; };
 		9793DE5D21181B5300A25B92 /* UViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9793DE5B21181B5300A25B92 /* UViewController.m */; };
 		9793DF38211D25EA00A25B92 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9793DF16211D25EA00A25B92 /* IQNSArray+Sort.m */; };
 		9793DF39211D25EA00A25B92 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9793DF18211D25EA00A25B92 /* IQUIScrollView+Additions.m */; };
@@ -129,6 +134,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		975ABDF621A7ACCB001F63E8 /* WebViewVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewVController.m; sourceTree = "<group>"; };
+		975ABDF721A7ACCB001F63E8 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		975ABDF821A7ACCC001F63E8 /* WebViewVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewVController.h; sourceTree = "<group>"; };
+		975ABDF921A7ACCC001F63E8 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		975ABDFD21A7ACD3001F63E8 /* WSLNativeScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLNativeScanTool.h; sourceTree = "<group>"; };
+		975ABDFE21A7ACD3001F63E8 /* WSLNativeScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLNativeScanTool.m; sourceTree = "<group>"; };
+		975ABDFF21A7ACD3001F63E8 /* WSLScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLScanView.h; sourceTree = "<group>"; };
+		975ABE0021A7ACD3001F63E8 /* WSLScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLScanView.m; sourceTree = "<group>"; };
+		975ABE0321A7AD0D001F63E8 /* jcore-ios-1.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jcore-ios-1.2.1.a"; sourceTree = "<group>"; };
+		975ABE0421A7AD0D001F63E8 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		975ABE0521A7AD0D001F63E8 /* jpush-ios-3.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-3.1.0.a"; sourceTree = "<group>"; };
 		97818D1321A3A4B9006042FA /* user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user.txt; sourceTree = "<group>"; };
 		978A5453210ABBF300428630 /* otherL.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = otherL.plist; sourceTree = "<group>"; };
 		9793DE5A21181B5300A25B92 /* UViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UViewController.h; sourceTree = "<group>"; };
@@ -344,8 +360,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975ABE0621A7AD0D001F63E8 /* jcore-ios-1.2.1.a in Frameworks */,
 				97ECB95E21241B8200A9D21E /* CFNetwork.framework in Frameworks */,
 				97ECB95C21241B7000A9D21E /* libz.1.dylib in Frameworks */,
+				975ABE0721A7AD0D001F63E8 /* jpush-ios-3.1.0.a in Frameworks */,
 				97ECB95A21241B6200A9D21E /* CoreGraphics.framework in Frameworks */,
 				97ECB95921241B5C00A9D21E /* Foundation.framework in Frameworks */,
 				97D72DC02133A4480067A149 /* LYWV.framework in Frameworks */,
@@ -364,6 +382,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		975ABDFC21A7ACD3001F63E8 /* WSScanningView */ = {
+			isa = PBXGroup;
+			children = (
+				975ABDFD21A7ACD3001F63E8 /* WSLNativeScanTool.h */,
+				975ABDFE21A7ACD3001F63E8 /* WSLNativeScanTool.m */,
+				975ABDFF21A7ACD3001F63E8 /* WSLScanView.h */,
+				975ABE0021A7ACD3001F63E8 /* WSLScanView.m */,
+			);
+			path = WSScanningView;
+			sourceTree = "<group>";
+		};
 		9793DF13211D25EA00A25B92 /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -503,6 +532,10 @@
 		97BA598121265E4600CC99C9 /* Type */ = {
 			isa = PBXGroup;
 			children = (
+				975ABDF721A7ACCB001F63E8 /* QRViewController.h */,
+				975ABDF921A7ACCC001F63E8 /* QRViewController.m */,
+				975ABDF821A7ACCC001F63E8 /* WebViewVController.h */,
+				975ABDF621A7ACCB001F63E8 /* WebViewVController.m */,
 				97BA598221265E5800CC99C9 /* TypeViewController.h */,
 				97BA598321265E5800CC99C9 /* TypeViewController.m */,
 				97D72DBA213387C80067A149 /* CreateViewController.h */,
@@ -629,6 +662,10 @@
 		97EFC99B2105652D00F972FA /* OtherLink */ = {
 			isa = PBXGroup;
 			children = (
+				975ABE0321A7AD0D001F63E8 /* jcore-ios-1.2.1.a */,
+				975ABE0521A7AD0D001F63E8 /* jpush-ios-3.1.0.a */,
+				975ABE0421A7AD0D001F63E8 /* JPUSHService.h */,
+				975ABDFC21A7ACD3001F63E8 /* WSScanningView */,
 				97D72DBF2133A4480067A149 /* LYWV.framework */,
 				97BA599D2126B29A00CC99C9 /* SDWebImage */,
 				97BA59852126B27F00CC99C9 /* Lib */,
@@ -962,7 +999,6 @@
 				97EFC9E92105654200F972FA /* README.md in Resources */,
 				9793DF46211D25EA00A25B92 /* IQKeyboardManager.bundle in Resources */,
 				97BA59D82126B42700CC99C9 /* home_jpg_1.jpg in Resources */,
-				978A5454210ABBF300428630 /* otherL.plist in Resources */,
 				97ACD15E2100ACD400D502FE /* Assets.xcassets in Resources */,
 				97818D1421A3A4B9006042FA /* user.txt in Resources */,
 				97EFC9D92105653800F972FA /* MJRefresh.bundle in Resources */,
@@ -1006,6 +1042,7 @@
 				9793DF3C211D25EA00A25B92 /* IQUIViewController+Additions.m in Sources */,
 				97BA599C2126B27F00CC99C9 /* UIView+SDExtension.m in Sources */,
 				97EFC9EB2105654200F972FA /* YYClassInfo.m in Sources */,
+				975ABDFA21A7ACCC001F63E8 /* WebViewVController.m in Sources */,
 				97BA59992126B27F00CC99C9 /* TAPageControl.m in Sources */,
 				97BA597F2125A7E400CC99C9 /* BlackTableViewCell.m in Sources */,
 				9793DF40211D25EA00A25B92 /* IQTextView.m in Sources */,
@@ -1015,6 +1052,7 @@
 				97D72DBD213387C80067A149 /* CreateViewController.m in Sources */,
 				97ACD1642100ACD400D502FE /* main.m in Sources */,
 				97EFC9CD2105653800F972FA /* MJRefreshComponent.m in Sources */,
+				975ABDFB21A7ACCC001F63E8 /* QRViewController.m in Sources */,
 				9793DF43211D25EA00A25B92 /* IQTitleBarButtonItem.m in Sources */,
 				97EFCA73210569DD00F972FA /* HomeCTableViewCell.m in Sources */,
 				97EFCA642105688C00F972FA /* UserI.m in Sources */,
@@ -1041,6 +1079,7 @@
 				97EFC9D72105653800F972FA /* MJRefreshNormalHeader.m in Sources */,
 				97EFC9D22105653800F972FA /* MJRefreshAutoStateFooter.m in Sources */,
 				97BA59CC2126B29B00CC99C9 /* UIImage+GIF.m in Sources */,
+				975ABE0221A7ACD3001F63E8 /* WSLScanView.m in Sources */,
 				9793DF38211D25EA00A25B92 /* IQNSArray+Sort.m in Sources */,
 				97BA59C72126B29B00CC99C9 /* SDWebImageDownloader.m in Sources */,
 				97EFC9CC2105653800F972FA /* MJRefreshBackFooter.m in Sources */,
@@ -1056,6 +1095,7 @@
 				97EFC9EA2105654200F972FA /* NSObject+YYModel.m in Sources */,
 				97BA59CD2126B29B00CC99C9 /* UIImage+MultiFormat.m in Sources */,
 				97BA597A2125A2C900CC99C9 /* ChangeViewController.m in Sources */,
+				975ABE0121A7ACD3001F63E8 /* WSLNativeScanTool.m in Sources */,
 				97EFC9D42105653800F972FA /* MJRefreshBackNormalFooter.m in Sources */,
 				97EFC9D82105653800F972FA /* MJRefreshStateHeader.m in Sources */,
 				97BA59C12126B29B00CC99C9 /* NSData+ImageContentType.m in Sources */,
